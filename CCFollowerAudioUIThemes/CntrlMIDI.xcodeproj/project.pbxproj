@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3073E92DFC01F20076317E /* MIDIKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = E20238242CC45D0B00661322 /* MIDIKitCore */; };
+		AF3073EA2DFC01F20076317E /* MIDIKitIO in Frameworks */ = {isa = PBXBuildFile; productRef = E20238262CC45D0B00661322 /* MIDIKitIO */; };
+		AF3073EB2DFC01F20076317E /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF332A002DF407100017CE7A /* AudioUICore */; };
+		AF3073EC2DFC01F20076317E /* AudioUIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = AF332A032DF4072B0017CE7A /* AudioUIComponents */; };
+		AF3073ED2DFC01F20076317E /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF332A062DF4073B0017CE7A /* AudioUITheme */; };
+		AF3073EE2DFC01F20076317E /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF332A092DF407520017CE7A /* GestureCanvasKit */; };
+		AF3073EF2DFC01F20076317E /* AudioUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF9D97E12DF68F9A00DE4E61 /* AudioUI */; };
+		AF3073F02DFC01F20076317E /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF9D97E52DF68F9A00DE4E61 /* AudioUICore */; };
+		AF3073F12DFC01F20076317E /* AudioUIMetalFX in Frameworks */ = {isa = PBXBuildFile; productRef = AF9D97E72DF68F9A00DE4E61 /* AudioUIMetalFX */; };
+		AF3073F22DFC01F20076317E /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF9D97E92DF68F9A00DE4E61 /* AudioUITheme */; };
+		AF3073F32DFC01F20076317E /* AudioUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF508A9B2DF691DE00409A60 /* AudioUI */; };
+		AF3073F42DFC01F20076317E /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF508A9F2DF691DE00409A60 /* AudioUICore */; };
+		AF3073F52DFC01F20076317E /* AudioUIMetalFX in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AA12DF691DE00409A60 /* AudioUIMetalFX */; };
+		AF3073F62DFC01F20076317E /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AA32DF691DE00409A60 /* AudioUITheme */; };
+		AF3073F72DFC01F20076317E /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AA62DF6932400409A60 /* GestureCanvasKit */; };
+		AF3073F82DFC01F20076317E /* AudioUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AA92DF693B300409A60 /* AudioUI */; };
+		AF3073F92DFC01F20076317E /* AudioUIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AAB2DF693B300409A60 /* AudioUIComponents */; };
+		AF3073FA2DFC01F20076317E /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AAD2DF693B300409A60 /* AudioUICore */; };
+		AF3073FB2DFC01F20076317E /* AudioUIMetalFX in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AAF2DF693B300409A60 /* AudioUIMetalFX */; };
+		AF3073FC2DFC01F20076317E /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AB12DF693B300409A60 /* AudioUITheme */; };
+		AF3073FD2DFC01F20076317E /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AB42DF693CC00409A60 /* GestureCanvasKit */; };
+		AF3073FE2DFC01F20076317E /* MappingKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF508AB72DF693E400409A60 /* MappingKit */; };
+		AF3073FF2DFC01F20076317E /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF508ABA2DF6955200409A60 /* GestureCanvasKit */; };
+		AF3074302DFC026C0076317E /* AudioUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF30742F2DFC026C0076317E /* AudioUI */; };
+		AF3074322DFC026C0076317E /* AudioUIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = AF3074312DFC026C0076317E /* AudioUIComponents */; };
+		AF3074342DFC026C0076317E /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF3074332DFC026C0076317E /* AudioUICore */; };
+		AF3074362DFC026C0076317E /* AudioUIMetalFX in Frameworks */ = {isa = PBXBuildFile; productRef = AF3074352DFC026C0076317E /* AudioUIMetalFX */; };
+		AF3074382DFC026C0076317E /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF3074372DFC026C0076317E /* AudioUITheme */; };
+		AF30743B2DFC02780076317E /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF30743A2DFC02780076317E /* GestureCanvasKit */; };
+		AF30743E2DFC028C0076317E /* MappingKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF30743D2DFC028C0076317E /* MappingKit */; };
+		AF3074412DFC03690076317E /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3074402DFC03690076317E /* AVFAudio.framework */; };
+		AF3074432DFC036D0076317E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF332A0E2DF40C550017CE7A /* AVFoundation.framework */; };
+		AF3074452DFC03720076317E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3074442DFC03720076317E /* CoreBluetooth.framework */; };
+		AF3074472DFC03770076317E /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3074462DFC03770076317E /* CoreMIDI.framework */; };
+		AF30744A2DFC03B20076317E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF3074492DFC03B20076317E /* AudioKit */; };
+		AF503BEA2DFB96C6004FECF5 /* MIDIKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF5FC2DF6AA7100370BE2 /* MIDIKit */; };
+		AF503BEB2DFB96C6004FECF5 /* MIDIKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF5FE2DF6AA7100370BE2 /* MIDIKitCore */; };
+		AF503BEC2DFB96C6004FECF5 /* MIDIKitIO in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6002DF6AA7100370BE2 /* MIDIKitIO */; };
+		AF503BED2DFB96C6004FECF5 /* AudioUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6032DF6AA9000370BE2 /* AudioUI */; };
+		AF503BEE2DFB96C6004FECF5 /* AudioUIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6052DF6AA9000370BE2 /* AudioUIComponents */; };
+		AF503BEF2DFB96C6004FECF5 /* AudioUICore in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6072DF6AA9000370BE2 /* AudioUICore */; };
+		AF503BF02DFB96C6004FECF5 /* AudioUIMetalFX in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6092DF6AA9000370BE2 /* AudioUIMetalFX */; };
+		AF503BF12DFB96C6004FECF5 /* AudioUITheme in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF60B2DF6AA9000370BE2 /* AudioUITheme */; };
+		AF503BF22DFB96C6004FECF5 /* MappingKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF60E2DF6AACE00370BE2 /* MappingKit */; };
+		AF503BF32DFB96C6004FECF5 /* GestureCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF3DF6112DF6AADA00370BE2 /* GestureCanvasKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3074402DFC03690076317E /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		AF3074442DFC03720076317E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AF3074462DFC03770076317E /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		AF332A0C2DF40C500017CE7A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF332A0E2DF40C550017CE7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF332A102DF40C610017CE7A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		AF332A122DF40E040017CE7A /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		AF508ABC2DF697BC00409A60 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+		E27D0E5F284F3FB600F43247 /* CntrlMIDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CntrlMIDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27D0E70284F402C00F43247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF41F8F62DFB526B00193D58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BluetoothMIDIApp.swift,
+				CanvasSystem/AudioUIComponentType.swift,
+				CanvasSystem/CanvasAdapter.swift,
+				CanvasSystem/CanvasDataModels.swift,
+				CanvasSystem/CanvasPresets.swift,
+				CanvasSystem/ComponentPaletteView.swift,
+				CanvasSystem/Components/InspectorPanel.swift,
+				CanvasSystem/SendableCoreGraphics.swift,
+				CanvasSystem/Views/CanvasContainer.swift,
+				CanvasSystem/Views/CanvasToolbar.swift,
+				ContentView.swift,
+				EnvelopeFollowerConductor.swift,
+				Images.xcassets,
+				MIDIHelper.swift,
+				ModeViews/BluetoothMIDIPeripheralView.swift,
+				ModeViews/BluetoothMIDIView.swift,
+				ModeViews/CanvasView.swift,
+				ModeViews/EnvelopeFollowerView.swift,
+				ModeViews/FocusView.swift,
+				ModeViews/SettingsView.swift,
+				ModeViews/TransportView.swift,
+				ThemeBrowserView.swift,
+				ThemeOptions.swift,
+			);
+			target = E27D0E5E284F3FB600F43247 /* CntrlMIDI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF41F8D12DFB526400193D58 /* Source */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (AF41F8F62DFB526B00193D58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Source; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27D0E5C284F3FB600F43247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3073FF2DFC01F20076317E /* GestureCanvasKit in Frameworks */,
+				AF3073FE2DFC01F20076317E /* MappingKit in Frameworks */,
+				AF3073FD2DFC01F20076317E /* GestureCanvasKit in Frameworks */,
+				AF3073FC2DFC01F20076317E /* AudioUITheme in Frameworks */,
+				AF3074362DFC026C0076317E /* AudioUIMetalFX in Frameworks */,
+				AF3073FB2DFC01F20076317E /* AudioUIMetalFX in Frameworks */,
+				AF3073FA2DFC01F20076317E /* AudioUICore in Frameworks */,
+				AF3073F92DFC01F20076317E /* AudioUIComponents in Frameworks */,
+				AF3073F82DFC01F20076317E /* AudioUI in Frameworks */,
+				AF3073F72DFC01F20076317E /* GestureCanvasKit in Frameworks */,
+				AF3073F62DFC01F20076317E /* AudioUITheme in Frameworks */,
+				AF3073F52DFC01F20076317E /* AudioUIMetalFX in Frameworks */,
+				AF30744A2DFC03B20076317E /* AudioKit in Frameworks */,
+				AF3073F42DFC01F20076317E /* AudioUICore in Frameworks */,
+				AF3073F32DFC01F20076317E /* AudioUI in Frameworks */,
+				AF30743E2DFC028C0076317E /* MappingKit in Frameworks */,
+				AF3074322DFC026C0076317E /* AudioUIComponents in Frameworks */,
+				AF3073F22DFC01F20076317E /* AudioUITheme in Frameworks */,
+				AF3073F12DFC01F20076317E /* AudioUIMetalFX in Frameworks */,
+				AF3073F02DFC01F20076317E /* AudioUICore in Frameworks */,
+				AF3073EF2DFC01F20076317E /* AudioUI in Frameworks */,
+				AF3073EE2DFC01F20076317E /* GestureCanvasKit in Frameworks */,
+				AF3074452DFC03720076317E /* CoreBluetooth.framework in Frameworks */,
+				AF3073ED2DFC01F20076317E /* AudioUITheme in Frameworks */,
+				AF3073EC2DFC01F20076317E /* AudioUIComponents in Frameworks */,
+				AF3073EB2DFC01F20076317E /* AudioUICore in Frameworks */,
+				AF3073EA2DFC01F20076317E /* MIDIKitIO in Frameworks */,
+				AF3074472DFC03770076317E /* CoreMIDI.framework in Frameworks */,
+				AF3073E92DFC01F20076317E /* MIDIKitCore in Frameworks */,
+				AF3074432DFC036D0076317E /* AVFoundation.framework in Frameworks */,
+				AF3074412DFC03690076317E /* AVFAudio.framework in Frameworks */,
+				AF3074342DFC026C0076317E /* AudioUICore in Frameworks */,
+				AF503BF32DFB96C6004FECF5 /* GestureCanvasKit in Frameworks */,
+				AF503BF22DFB96C6004FECF5 /* MappingKit in Frameworks */,
+				AF30743B2DFC02780076317E /* GestureCanvasKit in Frameworks */,
+				AF503BF12DFB96C6004FECF5 /* AudioUITheme in Frameworks */,
+				AF3074382DFC026C0076317E /* AudioUITheme in Frameworks */,
+				AF503BF02DFB96C6004FECF5 /* AudioUIMetalFX in Frameworks */,
+				AF503BEF2DFB96C6004FECF5 /* AudioUICore in Frameworks */,
+				AF503BEE2DFB96C6004FECF5 /* AudioUIComponents in Frameworks */,
+				AF503BED2DFB96C6004FECF5 /* AudioUI in Frameworks */,
+				AF503BEC2DFB96C6004FECF5 /* MIDIKitIO in Frameworks */,
+				AF503BEB2DFB96C6004FECF5 /* MIDIKitCore in Frameworks */,
+				AF503BEA2DFB96C6004FECF5 /* MIDIKit in Frameworks */,
+				AF3074302DFC026C0076317E /* AudioUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF332A0B2DF40C500017CE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3074462DFC03770076317E /* CoreMIDI.framework */,
+				AF3074442DFC03720076317E /* CoreBluetooth.framework */,
+				AF3074402DFC03690076317E /* AVFAudio.framework */,
+				AF508ABC2DF697BC00409A60 /* Combine.framework */,
+				AF332A122DF40E040017CE7A /* CoreAudioKit.framework */,
+				AF332A102DF40C610017CE7A /* CoreMotion.framework */,
+				AF332A0E2DF40C550017CE7A /* AVFoundation.framework */,
+				AF332A0C2DF40C500017CE7A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27D0E56284F3FB600F43247 = {
+			isa = PBXGroup;
+			children = (
+				AF41F8D12DFB526400193D58 /* Source */,
+				E27D0E61284F3FB600F43247 /* BluetoothMIDI */,
+				AF332A0B2DF40C500017CE7A /* Frameworks */,
+				E27D0E60284F3FB600F43247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27D0E60284F3FB600F43247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27D0E5F284F3FB600F43247 /* CntrlMIDI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27D0E61284F3FB600F43247 /* BluetoothMIDI */ = {
+			isa = PBXGroup;
+			children = (
+				E27D0E70284F402C00F43247 /* Info.plist */,
+			);
+			path = BluetoothMIDI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27D0E5E284F3FB600F43247 /* CntrlMIDI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27D0E6D284F3FB700F43247 /* Build configuration list for PBXNativeTarget "CntrlMIDI" */;
+			buildPhases = (
+				E27D0E5B284F3FB600F43247 /* Sources */,
+				E27D0E5C284F3FB600F43247 /* Frameworks */,
+				E27D0E5D284F3FB600F43247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CntrlMIDI;
+			packageProductDependencies = (
+				E20238242CC45D0B00661322 /* MIDIKitCore */,
+				E20238262CC45D0B00661322 /* MIDIKitIO */,
+				AF332A002DF407100017CE7A /* AudioUICore */,
+				AF332A032DF4072B0017CE7A /* AudioUIComponents */,
+				AF332A062DF4073B0017CE7A /* AudioUITheme */,
+				AF332A092DF407520017CE7A /* GestureCanvasKit */,
+				AF9D97E12DF68F9A00DE4E61 /* AudioUI */,
+				AF9D97E52DF68F9A00DE4E61 /* AudioUICore */,
+				AF9D97E72DF68F9A00DE4E61 /* AudioUIMetalFX */,
+				AF9D97E92DF68F9A00DE4E61 /* AudioUITheme */,
+				AF508A9B2DF691DE00409A60 /* AudioUI */,
+				AF508A9F2DF691DE00409A60 /* AudioUICore */,
+				AF508AA12DF691DE00409A60 /* AudioUIMetalFX */,
+				AF508AA32DF691DE00409A60 /* AudioUITheme */,
+				AF508AA62DF6932400409A60 /* GestureCanvasKit */,
+				AF508AA92DF693B300409A60 /* AudioUI */,
+				AF508AAB2DF693B300409A60 /* AudioUIComponents */,
+				AF508AAD2DF693B300409A60 /* AudioUICore */,
+				AF508AAF2DF693B300409A60 /* AudioUIMetalFX */,
+				AF508AB12DF693B300409A60 /* AudioUITheme */,
+				AF508AB42DF693CC00409A60 /* GestureCanvasKit */,
+				AF508AB72DF693E400409A60 /* MappingKit */,
+				AF508ABA2DF6955200409A60 /* GestureCanvasKit */,
+				AF3DF5FC2DF6AA7100370BE2 /* MIDIKit */,
+				AF3DF5FE2DF6AA7100370BE2 /* MIDIKitCore */,
+				AF3DF6002DF6AA7100370BE2 /* MIDIKitIO */,
+				AF3DF6032DF6AA9000370BE2 /* AudioUI */,
+				AF3DF6052DF6AA9000370BE2 /* AudioUIComponents */,
+				AF3DF6072DF6AA9000370BE2 /* AudioUICore */,
+				AF3DF6092DF6AA9000370BE2 /* AudioUIMetalFX */,
+				AF3DF60B2DF6AA9000370BE2 /* AudioUITheme */,
+				AF3DF60E2DF6AACE00370BE2 /* MappingKit */,
+				AF3DF6112DF6AADA00370BE2 /* GestureCanvasKit */,
+				AF30742F2DFC026C0076317E /* AudioUI */,
+				AF3074312DFC026C0076317E /* AudioUIComponents */,
+				AF3074332DFC026C0076317E /* AudioUICore */,
+				AF3074352DFC026C0076317E /* AudioUIMetalFX */,
+				AF3074372DFC026C0076317E /* AudioUITheme */,
+				AF30743A2DFC02780076317E /* GestureCanvasKit */,
+				AF30743D2DFC028C0076317E /* MappingKit */,
+				AF3074492DFC03B20076317E /* AudioKit */,
+			);
+			productName = BluetoothMIDI;
+			productReference = E27D0E5F284F3FB600F43247 /* CntrlMIDI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27D0E57284F3FB600F43247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E27D0E5E284F3FB600F43247 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = E27D0E5A284F3FB600F43247 /* Build configuration list for PBXProject "CntrlMIDI" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27D0E56284F3FB600F43247;
+			packageReferences = (
+				AF3DF5FB2DF6AA7100370BE2 /* XCRemoteSwiftPackageReference "MIDIKit" */,
+				AF30742E2DFC026C0076317E /* XCLocalSwiftPackageReference "../Packages/AudioUI" */,
+				AF3074392DFC02780076317E /* XCLocalSwiftPackageReference "../Packages/GestureCanvasKit" */,
+				AF30743C2DFC028C0076317E /* XCLocalSwiftPackageReference "../Packages/MappingKit" */,
+				AF3074482DFC03B20076317E /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
+			productRefGroup = E27D0E60284F3FB600F43247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27D0E5E284F3FB600F43247 /* CntrlMIDI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27D0E5D284F3FB600F43247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27D0E5B284F3FB600F43247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E27D0E6B284F3FB700F43247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 84MVV46VM6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E27D0E6C284F3FB700F43247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 84MVV46VM6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27D0E6E284F3FB700F43247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothMIDI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CC Follower";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to bluetooth MIDI devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cohenmitchell.CCFOllowerwithAudioUIThemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27D0E6F284F3FB700F43247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothMIDI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CC Follower";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to bluetooth MIDI devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cohenmitchell.CCFOllowerwithAudioUIThemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27D0E5A284F3FB600F43247 /* Build configuration list for PBXProject "CntrlMIDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27D0E6B284F3FB700F43247 /* Debug */,
+				E27D0E6C284F3FB700F43247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27D0E6D284F3FB700F43247 /* Build configuration list for PBXNativeTarget "CntrlMIDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27D0E6E284F3FB700F43247 /* Debug */,
+				E27D0E6F284F3FB700F43247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AF30742E2DFC026C0076317E /* XCLocalSwiftPackageReference "../Packages/AudioUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/AudioUI;
+		};
+		AF3074392DFC02780076317E /* XCLocalSwiftPackageReference "../Packages/GestureCanvasKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/GestureCanvasKit;
+		};
+		AF30743C2DFC028C0076317E /* XCLocalSwiftPackageReference "../Packages/MappingKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/MappingKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF3074482DFC03B20076317E /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+		AF3DF5FB2DF6AA7100370BE2 /* XCRemoteSwiftPackageReference "MIDIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MIDIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF30742F2DFC026C0076317E /* AudioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUI;
+		};
+		AF3074312DFC026C0076317E /* AudioUIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIComponents;
+		};
+		AF3074332DFC026C0076317E /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF3074352DFC026C0076317E /* AudioUIMetalFX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIMetalFX;
+		};
+		AF3074372DFC026C0076317E /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		AF30743A2DFC02780076317E /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF30743D2DFC028C0076317E /* MappingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MappingKit;
+		};
+		AF3074492DFC03B20076317E /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3074482DFC03B20076317E /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		AF332A002DF407100017CE7A /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF332A032DF4072B0017CE7A /* AudioUIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIComponents;
+		};
+		AF332A062DF4073B0017CE7A /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		AF332A092DF407520017CE7A /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF3DF5FC2DF6AA7100370BE2 /* MIDIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3DF5FB2DF6AA7100370BE2 /* XCRemoteSwiftPackageReference "MIDIKit" */;
+			productName = MIDIKit;
+		};
+		AF3DF5FE2DF6AA7100370BE2 /* MIDIKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3DF5FB2DF6AA7100370BE2 /* XCRemoteSwiftPackageReference "MIDIKit" */;
+			productName = MIDIKitCore;
+		};
+		AF3DF6002DF6AA7100370BE2 /* MIDIKitIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3DF5FB2DF6AA7100370BE2 /* XCRemoteSwiftPackageReference "MIDIKit" */;
+			productName = MIDIKitIO;
+		};
+		AF3DF6032DF6AA9000370BE2 /* AudioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUI;
+		};
+		AF3DF6052DF6AA9000370BE2 /* AudioUIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIComponents;
+		};
+		AF3DF6072DF6AA9000370BE2 /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF3DF6092DF6AA9000370BE2 /* AudioUIMetalFX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIMetalFX;
+		};
+		AF3DF60B2DF6AA9000370BE2 /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		AF3DF60E2DF6AACE00370BE2 /* MappingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MappingKit;
+		};
+		AF3DF6112DF6AADA00370BE2 /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF508A9B2DF691DE00409A60 /* AudioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUI;
+		};
+		AF508A9F2DF691DE00409A60 /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF508AA12DF691DE00409A60 /* AudioUIMetalFX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIMetalFX;
+		};
+		AF508AA32DF691DE00409A60 /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		AF508AA62DF6932400409A60 /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF508AA92DF693B300409A60 /* AudioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUI;
+		};
+		AF508AAB2DF693B300409A60 /* AudioUIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIComponents;
+		};
+		AF508AAD2DF693B300409A60 /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF508AAF2DF693B300409A60 /* AudioUIMetalFX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIMetalFX;
+		};
+		AF508AB12DF693B300409A60 /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		AF508AB42DF693CC00409A60 /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF508AB72DF693E400409A60 /* MappingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MappingKit;
+		};
+		AF508ABA2DF6955200409A60 /* GestureCanvasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GestureCanvasKit;
+		};
+		AF9D97E12DF68F9A00DE4E61 /* AudioUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUI;
+		};
+		AF9D97E52DF68F9A00DE4E61 /* AudioUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUICore;
+		};
+		AF9D97E72DF68F9A00DE4E61 /* AudioUIMetalFX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUIMetalFX;
+		};
+		AF9D97E92DF68F9A00DE4E61 /* AudioUITheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioUITheme;
+		};
+		E20238242CC45D0B00661322 /* MIDIKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MIDIKitCore;
+		};
+		E20238262CC45D0B00661322 /* MIDIKitIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MIDIKitIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E27D0E57284F3FB600F43247 /* Project object */;
+}
